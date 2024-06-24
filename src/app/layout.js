@@ -3,9 +3,9 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import ThemeProvider from "@/providers/ThemeProvider";
 import { ThemeContextProvider } from "@/context/ThemeContext";
-import Cursor from "@/components/customCursor/cursor";
-import Image from "next/image";
-import Social from "@/components/social/Social";
+// import Cursor from "@/components/customCursor/cursor";
+// import Image from "next/image";
+// import Social from "@/components/social/Social";
 
 const inter = Inter({ subsets: ["latin"] });
 const bebas = Bebas_Neue({subsets: ['latin'], weight: '400'})
