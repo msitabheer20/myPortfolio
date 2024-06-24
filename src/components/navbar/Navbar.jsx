@@ -40,7 +40,7 @@ const Navbar = () => {
               <ThemeToggle />
             </div>
             <div className={`${bebas.className} ${styles.btn}`}>
-              <h3 className={styles.resumeBtn}>Resume</h3>
+              <Link href="https://drive.google.com/file/d/1VNIEoU1ky6cLGjj4kRb-grYaOUij_ym0/view" target='_blank' className={styles.resumeBtn}>Resume</Link>
             </div>
 
             <NavLinks/>
