@@ -1,0 +1,206 @@
+.container {
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+
+.box1 {
+    --r: 20px;
+    height: 401px;
+    aspect-ratio: cos(-46deg);
+    --_g: calc(tan(60deg)*var(--r)) right var(--r), #000 98%, #0000 101%;
+    -webkit-mask: conic-gradient(from 240deg at calc(184% - 3* var(--r) / 2), #000 60deg, #0000 0) 100% 0 / calc(100% - 3* var(--r) / 2) 100% no-repeat, radial-gradient(var(--r) at calc(2* var(--r)) 50%, #000 98%, #0000 101%), radial-gradient(var(--r) at top var(--_g)), radial-gradient(var(--r) at bottom var(--_g));
+    -webkit-clip-path: polygon(0 50%, 100% 100%, 100% 0);
+    clip-path: polygon(0 27%, 100% 106%, 103% 0);
+    background: linear-gradient(45deg, #ed3434, #c59f14);
+    position: absolute;
+    right: 1px;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.box2 {
+    --r: 20px;
+    height: 276px;
+    aspect-ratio: cos(-57deg);
+    --_g: calc(tan(60deg)*var(--r)) left var(--r), #000 98%, #0000 101%;
+    -webkit-mask: conic-gradient(from 60deg at calc(3* var(--r) / 2 - 100%), #000 60deg, #0000 0) 0 0 / calc(100% - 3* var(--r) / 2) 100% no-repeat, radial-gradient(var(--r) at calc(100% - 2* var(--r)) 50%, #000 98%, #0000 101%), radial-gradient(var(--r) at top var(--_g)), radial-gradient(var(--r) at bottom var(--_g));
+    -webkit-clip-path: polygon(100% 50%, 0 100%, 0 0);
+    clip-path: polygon(100% 30%, 0 115%, 0 0);
+    background: linear-gradient(45deg, #1f278d, #C02942);
+    position: absolute;
+    left: 1px;
+    bottom: 0;
+    opacity: 0.4;
+    /* filter: blur(10px); */
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.imgContainer {
+    position: relative;
+    width: 450px;
+    height: 420px;
+}
+
+.image {
+    flex: 1;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center top;
+    opacity: 0.8;
+}
+
+.summary {
+    flex: 1;
+    text-align: justify;
+    line-height: 100px;
+    position: relative;
+}
+
+.summary h3 {
+    line-height: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.summary h1{
+    font-size: 150px;
+    margin-bottom: 30px;
+}
+
+.summary h2{
+    font-size: 75px;
+    letter-spacing: -1px;
+}
+
+.mainSkills {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.summary .mainSkills h3{
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 2px 10px;
+    border: 1px solid var(--textColor);
+    letter-spacing: 1px;
+    transition: 0.3s ease-out;
+}
+
+.mainSkills h3:hover {
+    color: var(--bg);
+    background-color: var(--textColor);
+}
+
+@media screen and (max-width:1024px) {
+
+    .imgContainer {
+        position: relative;
+        width: 350px;
+        height: 400px;
+    }
+    
+    .summary h3 {
+        font-size: 30px;
+    }
+    
+    .summary h1{
+        font-size: 90px;
+        line-height: 30px;
+        margin: 0;
+    }
+    
+    .summary h2{
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+}
+
+@media screen and (max-width:819px) {
+  
+    .summary h1{
+        font-size: 75px;
+    }
+    .summary h2{
+        font-size: 30px;
+    }
+    .summary .mainSkills h3 {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .box1 {
+        height: 290px;
+    }
+
+    .box2 {
+        height: 198px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .summary {
+        line-height: 150px;
+    }
+
+    .summary h3 {
+        line-height: 50px;
+        font-size: 50px;
+    }
+    
+    .summary h1{
+        font-size: 140px;
+        line-height: 100px;
+    }
+    
+    .summary h2{
+        font-size: 60px;
+        letter-spacing: -1px;
+    }
+
+    .imgContainer {
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+}
+  
+@media screen and (max-width:576px) {
+
+    .summary {
+        line-height: 150px;
+    }
+
+    .summary h3 {
+        line-height: 50px;
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .summary h1{
+        font-size: 90px;
+        line-height: 100px;
+    }
+    
+    .summary h2{
+        font-size: 45px;
+        line-height: 80px;
+        letter-spacing: -1px;
+    }
+}

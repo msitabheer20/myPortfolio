@@ -1,0 +1,7 @@
+.box {
+  background-image: radial-gradient(#62338d 2px, transparent 2px), radial-gradient(#62338d 2px, transparent 2px);
+background-size: 45px 45px;
+background-position: 0 0, 22.5px 22.5px;
+background-color: rgba(140, 245, 182, 0);
+height: 100vh;
+}
