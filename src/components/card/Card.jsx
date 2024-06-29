@@ -23,6 +23,7 @@ const Card = () => {
         <Link href="#" className={styles.link}>LINK</Link>
         <Link href="#" className={styles.link}>Github</Link>
       </div>
+      <Image className={styles.back} src="/wave.png" width={200} height={300}/>
     </div>
   )
 }

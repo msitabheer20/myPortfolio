@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
             /> */}
             <div className="container">
               <div className="wrapper">
-              <div className="background"></div>
+              {/* <div className="background"></div> */}
                 <Navbar />
                 {children}
                 

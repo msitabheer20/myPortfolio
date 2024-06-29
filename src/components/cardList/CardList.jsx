@@ -23,9 +23,6 @@ const CardList = () => {
       <Card />
       <Card />
       <Card />
-      <Card />
-      <Card />
-      <Card />
       </div>
       <Link href="#" className={styles.seemore}>See More 👉</Link>
     </div>

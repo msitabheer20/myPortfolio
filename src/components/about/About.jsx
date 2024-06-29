@@ -20,7 +20,7 @@ const About = () => {
             />
             <p>Hello! Im <span>Abheer Dey</span>, a passionate and dedicated <span>web developer</span> currently pursuing <span>B.Tech</span> in <span>Computer Science</span> from <span>Maharaja Surajmal Institute of Technology</span>, New Delhi. With a solid foundation in both <span>frontend</span> and <span>backend</span> technologies, I strive to create seamless, user-friendly web applications. My technical expertise spans across various domains, including, <span>React.js, Next.js, Node.js, JavaScript, C++, MySQL</span> and <span>MongoDB</span>. I also hold a certification in <span>MERN Stack Web Development</span> from Brain Mentors, where I mastered MongoDB, Express.js, React.js, and Node.js. Feel free to explore my projects on <span>GitHub</span> or connect with me on <span>LinkedIn </span>. 
             </p>
-            <h1><span>Let&apos;s build something amazing together!</span>🎊</h1>
+            <h1><span>Let&apos;s build something amazing together!</span> 🎊</h1>
           </div>
         </div>
       </div>

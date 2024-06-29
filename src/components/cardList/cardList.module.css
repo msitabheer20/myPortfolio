@@ -1,5 +1,5 @@
 .cardContainer {
-    min-height: 100vh;
+    min-height: 45vh;
     /* position: relative; */
     background-image: radial-gradient(#62338d7a 2px, transparent 2px), radial-gradient(#62338d75 2px, transparent 2px);
     background-size: 45px 45px;
