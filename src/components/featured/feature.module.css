@@ -204,3 +204,13 @@
         letter-spacing: -1px;
     }
 }
+
+@media screen and (max-width: 390px) {
+    .summary h1{
+        font-size: 80px;
+    }
+
+    .summary h2{
+        font-size: 38px;
+    }
+}

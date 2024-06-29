@@ -23,7 +23,7 @@ const ThemeToggle = () => {
       }
       ></div>
       
-      <Image src="/sun.png" alt="sun" width={14} height={14} />
+      <Image src="/sunny.png" alt="sun" width={14} height={14} />
     </div>
   )
 }
