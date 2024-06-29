@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../card/Card'
 import styles from './cardList.module.css'
+import Link from 'next/link'
 
 const obj = [
 
@@ -25,10 +26,8 @@ const CardList = () => {
       <Card />
       <Card />
       <Card />
-      <Card />
-      <Card />
-      <Card />
       </div>
+      <Link href="#" className={styles.seemore}>See More 👉</Link>
     </div>
     </>
   )

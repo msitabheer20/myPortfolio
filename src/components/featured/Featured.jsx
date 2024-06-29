@@ -17,7 +17,7 @@ const Featured = () => {
         <div className={styles.summary}>
           <div className={styles.box1}></div>
           <div className={styles.box2}></div>
-          <h3>Hi, my name is</h3>
+          <h3>Hi, my name is 🖐</h3>
           <h1>Abheer Dey.</h1>
           <h2>I build things for the web.</h2>
           <div className={styles.mainSkills}>
